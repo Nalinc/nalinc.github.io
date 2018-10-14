@@ -9,7 +9,6 @@
 
     p { margin: 0; }
 }
-
 .news {
     border-top: 1px solid $grey-color-light;
     margin-top: 30px;
@@ -40,4 +39,57 @@
     border-top: 1px solid $grey-color-light;
     margin-top: 50px;
     padding-top: 20px;
+}
+
+
+/** flippy flop**/
+.cube {
+  width: 175px;
+  text-align: center;
+  margin: 20px auto;
+  height: 175px;
+  -webkit-transition: -webkit-transform .33s;
+  transition: transform .33s; /* Animate the transform properties */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; /* <-NB */
+    /* The two faces of the cube */
+    div {
+      background: rgb(247, 247, 247);
+      border: 1px solid rgba(147, 184, 189, .8);
+
+      -webkit-border-radius: 15px;
+      border-radius: 15px;
+
+      -webkit-box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+      box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+      height: 175px;
+      &.flippety{
+        /* Position the faces */
+        -webkit-transform: translateZ(70px);
+        transform: translateZ(70px);
+        img{
+            width:175px;
+            height:175px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+        }      
+      }
+      &.flop{
+            -webkit-transform: rotateX(-90deg) translateZ(-70px);
+            transform: rotateX(-90deg) translateZ(-70px);
+            >span{
+                font-size:12px;
+                line-height: 30%;
+                color:black;
+                height:5px;
+            }
+      }
+
+    }
+    /* Rotate the cube */
+    &:hover {
+        -webkit-transform: rotateX(89deg);
+        transform: rotateX(89deg); /* Text bleed at 90º */
+    }
+
 }

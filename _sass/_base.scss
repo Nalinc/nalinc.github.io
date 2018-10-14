@@ -29,4 +29,5 @@ body {
     padding-right: $horizontal-spacing-unit;
     padding-left: $horizontal-spacing-unit;
     @extend .clearfix;
+    text-align: justify;
 }

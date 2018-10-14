@@ -1,0 +1,14 @@
+---
+layout: post
+title: Applying for GSoC 2018
+date: 2018-02-12 16:11:00-0400
+inline: false
+---
+
+Yes, I am applying to aimacode as part of Google Summer Of Code 2018
+
+After spending a couple weeks with aimacode, porting the LaTeX files to Markdown, to Jupyter Notebooks and finally back to Markdown, opening issues, fixing bugs, and submitting pull requests, I could clearly see I am addicted to aima-exercises. I am spending days & nights to fix bugs in the newly created repository for aima-exercises, and submitting pull-requests. All this when I am working on a bunch of research projects and writing proposals which I hope could turn into CHI papers. I know I am putting a lot on stake this time, but this is definitely worth a try.
+
+Last term when I took the #686 Artificial Intelligence course here at University of Waterloo, I wasn’t aware of an official code base for our prescribed book—AI: A Modern Approach by Stuart J. Russell, Peter Norvig. I couldn’t get a hardcopy of the book from library because of the popularity of AIMA, so I managed the entire term with a digital version on Mendeley. If I would have known about aimacode back then, my learning experience would be a lot more different, lot more great. That’s why I decided to contribute to aimacode and apply for GSoC 2018. I will be contributing to aima-exercises regardless of my selection for GSoC 2018.
+
+~ Nalin

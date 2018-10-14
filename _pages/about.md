@@ -1,23 +1,27 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+title: <strong>Nalin</strong> Chhibber
+description: Student | Programmer | Geek | Developer | Thinker | FOSS Enthusiast | Learner | Doer
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div class="cube">
+	<div class="flippety">
+		<img src="assets/img/prof_pic.jpg">
+	</div>
+	<div class="flop">
+		<span>This is me in front of <b>LHC-b</b> at CERN: The birthplace of <b>www</b> aka <b>world-wide-web</b>. I was a <b>Summer Student Intern</b> at GS-Scientific Information Services group, <a href="http://ep-news.web.cern.ch/sites/ep-news.web.cern.ch/files/cern_map2014/index.html" target="_blank">one of only 3 selected from India in 2014</a>.</span>
+	</div>
+</div>
+<!-- <img src="assets/img/prof_pic.jpg"/> -->
+Hi!
+I am a Master’s student in the <a href="https://cs.uwaterloo.ca/">David R. Cheriton School of Computing Science</a> at the University of Waterloo. I am supervised by <a href="http://edithlaw.ca/"> Dr Edith Law</a> in the Human-Computer Interaction Lab. My research interests lies on the intersection of Human-AI Interaction and Intelligent User Interfaces.
+I am currently studying how to effectively combine Human and Artificial Intelligence to argument teachers in K-12 classrooms. I love working at /src and constantly try to bridge the gap between the technology, and humans by building great products. When not coding, I enjoy running, watching movies and playing chess.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before coming to Waterloo, I worked as a Fullstack Software Engineer in <a href="https://www.comprotechnologies.com/#home">Compro</a>: an ed-tech company based in New Delhi. I have also interned at awesome places like <a href="https://home.cern/">CERN</a> (Geneva) and <a href="http://www.csir4pi.in/">CSIR-4PI</a> (Bangalore) during my undergrad. I completed my bachelors degree in Computer Science and Engineering from <a href="http://ipu.ac.in/">Indraprastha University</a>, New Delhi.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- Inspired and impassioned by experiencing new things, I adore programming, take it very seriously and constantly seek to improve upon myself. I have learned to appreciate the value of what I have in life and what I do with it. I am passionate about understanding and learning how users respond to situations, systems and applications in order to better develop new technology that will meet their needs. I have a strong inclination towards Computer Science and Human Computer Interaction, and its application across disciplines of Education. If you find something related interesting, please come and talk to me!
+ -->
