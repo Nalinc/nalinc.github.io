@@ -18,7 +18,7 @@ social: true
 </div>
 <!-- <img src="assets/img/prof_pic.jpg"/> -->
 Hi!
-I am a Master’s student in the <a href="https://cs.uwaterloo.ca/">David R. Cheriton School of Computing Science</a> at the University of Waterloo. I am supervised by <a href="http://edithlaw.ca/"> Dr Edith Law</a> in the Human-Computer Interaction Lab. My research interests lies on the intersection of Human-AI Interaction and Intelligent User Interfaces.
+I am a Master’s student in the <a href="https://cs.uwaterloo.ca/">David R. Cheriton School of Computing Science</a> at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am supervised by <a href="http://edithlaw.ca/"> Dr Edith Law</a> in the Human-Computer Interaction Lab. My research interests lies on the intersection of Human-AI Interaction and Intelligent User Interfaces.
 I am currently studying how to effectively combine Human and Artificial Intelligence to argument teachers in K-12 classrooms. I love working at /src and constantly try to bridge the gap between the technology, and humans by building great products. When not coding, I enjoy running, watching movies and playing chess.
 
 Before coming to Waterloo, I worked as a Fullstack Software Engineer in <a href="https://www.comprotechnologies.com/#home">Compro</a>: an ed-tech company based in New Delhi. I have also interned at awesome places like <a href="https://home.cern/">CERN</a> (Geneva) and <a href="http://www.csir4pi.in/">CSIR-4PI</a> (Bangalore) during my undergrad. I completed my bachelors degree in Computer Science and Engineering from <a href="http://ipu.ac.in/">Indraprastha University</a>, New Delhi.
