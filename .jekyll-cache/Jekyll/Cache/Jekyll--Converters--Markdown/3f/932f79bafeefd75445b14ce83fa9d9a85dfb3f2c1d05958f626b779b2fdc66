@@ -1,0 +1,101 @@
+I"Š	
+<div class="project ">
+    <div class="thumbnail">
+        <a href="http://localhost:4000/projects/5_curiosity_notebook/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Curiosity Notebook</h1>
+            <br />
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="http://localhost:4000/projects/4_typealike/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Typealike Interactions</h1>
+            <br />
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="http://localhost:4000/projects/3_surprise/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Surprise</h1>
+            <br />
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="http://localhost:4000/projects/2_storykart/">
+        
+        <div class="project_image">
+            <img class="thumbnail" src="http://localhost:4000/assets/img/storykart/1.png" />  
+            <div class="thumbnail-text">Storykart</div>
+        </div>
+            
+        <span>
+            <h1>Storykart</h1>
+            <br />
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="http://localhost:4000/projects/1_cosmic_shooters/">
+        
+        <div class="project_image">
+            <img class="thumbnail" src="http://localhost:4000/assets/img/cosmic_shooters/cosmic_shooters.png" />  
+            <div class="thumbnail-text">Cosmic Shooters</div>
+        </div>
+            
+        <span>
+            <h1>Cosmic Shooters</h1>
+            <br />
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="http://localhost:4000/projects/0_tweebble/">
+        
+        <div class="project_image">
+            <img class="thumbnail" src="http://localhost:4000/assets/img/tweebbles/tweebbles_cloud.png" />  
+            <div class="thumbnail-text">Tweebbles</div>
+        </div>
+            
+        <span>
+            <h1>Tweebbles</h1>
+            <br />
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+:ET

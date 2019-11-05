@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /resume/
+permalink: /resume_archive/
 title: Resume
 description: 
 ---
