@@ -1,8 +1,0 @@
----
-layout: page
-title: Curiosity Notebook
-description:
-img:
----
-
-Framework to effectively combine Human and Artificial Intelligence to assist teachers in K-12 classrooms. The idea is to augment human teachers (not replace them) by means of virtual teaching assistants that can keep students engaged even outside classrooms. This is an active research project led by professor Edith Law in the University of Waterloo HCI lab.

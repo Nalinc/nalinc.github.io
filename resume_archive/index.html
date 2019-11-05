@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Nalin Chhibber</title>
+  <title>Nalin Chhibber | Resume</title>
   <meta name="description" content="Nalin's World! His little space on the web.
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/resume_archive/">
 </head>
 
 
@@ -72,42 +72,77 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>Nalin's_World</h1>
-  <h2>My little space on the web</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Resume</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Resume clearfix">
+    <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+
+<style>
+  #pdf-viewer {
+    width: 100%;
+    overflow: auto;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .pdf-page-canvas {
+    display: block;
+    width: 100%;
+    margin: 5px -1px;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+  }
+</style>
+
+<div id="pdf-viewer"></div>
+
+<script type="text/javascript">
+// If absolute URL from the remote server is provided, configure the CORS
+// header on that server.
+var url = 'https://nalinc.github.io/cv/LaTeX/resume.pdf';
+
+// Loaded via <script> tag, create shortcut to access PDF.js exports.
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+  // url = 'https://github.com/mozilla/pdf.js/blob/master/test/pdfs/tracemonkey.pdf';
+    var thePdf = null;
+    var scale = 1.5;
+
+    pdfjsLib.getDocument(url).promise.then(function(pdf) {
+        thePdf = pdf;
+        viewer = document.getElementById('pdf-viewer');
+
+        for(page = 1; page <= pdf.numPages; page++) {
+          canvas = document.createElement("canvas");    
+          canvas.className = 'pdf-page-canvas';         
+          viewer.appendChild(canvas);            
+          renderPage(page, canvas);
+        }
+    });
+
+    function renderPage(pageNumber, canvas) {
+        thePdf.getPage(pageNumber).then(function(page) {
+          viewport = page.getViewport(scale);
+          canvas.height = viewport.height;
+          canvas.width = viewport.width;          
+          page.render({canvasContext: canvas.getContext('2d'), viewport: viewport});
+    });
+    }
+
+</script>
+
+
+  </article>
+
+  
+
+  
+
 </div>
-
-
-<ul class="post-list">
-  
-    <li>
-    	
-	    	<h2><a class="post-title" href="/blog/gsoc-final-submission/">GSoC 2018 Final Project Submission</a></h2>
-		
-      <p class="post-meta">August 15, 2018 — 12:40</p>
-      <p></p>
-    </li>
-  
-    <li>
-    	
-	     	<h2><a class="post-title" href="/blog/2018/selected-for-GSOC-2018/">Got Selected for GSoC 2018</a></h2>
-	    
-      <p class="post-meta">April 23, 2018 — 12:40</p>
-      <p></p>
-    </li>
-  
-    <li>
-    	
-	     	<h2><a class="post-title" href="/blog/2018/skin-detection-python-opencv/">Skin Detection Using OpenCV Python</a></h2>
-	    
-      <p class="post-meta">January 26, 2018 — 10:12</p>
-      <p></p>
-    </li>
-  
-</ul>
-
-
-
 
       </div>
     </div>
