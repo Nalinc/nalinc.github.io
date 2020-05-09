@@ -12,11 +12,11 @@ layout: default
   <li>
     {% if post.redirect %}
     <h2>
-      <a class="post-title" href="{{ post.redirect }}">{{ post.title }}</a>
+      <a class="post-title blog-post-title" href="{{ post.redirect }}">{{ post.title }}</a>
     </h2>
     {% else %}
     <h2>
-      <a class="post-title" href="{{ post.url | prepend: site.baseurl }}"
+      <a class="post-title blog-post-title" href="{{ post.url | prepend: site.baseurl }}"
         >{{ post.title }}</a
       >
     </h2>
