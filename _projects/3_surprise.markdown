@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Surprise
+title: Computational Surprise
 description:
 img:
 ---
