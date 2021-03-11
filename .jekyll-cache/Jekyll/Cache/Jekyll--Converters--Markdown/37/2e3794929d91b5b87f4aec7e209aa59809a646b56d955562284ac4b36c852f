@@ -1,4 +1,4 @@
-I"D<div class="cube">
+I"F<div class="cube">
 	<div class="flippety">
 		<img src="assets/img/prof_pic.jpg" />
 	</div>
@@ -11,7 +11,7 @@
 I graduated from <!-- <a href="https://cs.uwaterloo.ca/" >David R. Cheriton School of Computing Science</a> at the -->
 the <a target="_blank" href="https://uwaterloo.ca/">University of Waterloo</a> under the supervision of <a target="_blank" href="http://edithlaw.ca/"> Dr Edith Law</a>.
 My research interests lies on the intersection of Interactive Machine Learning and Intelligent User Interfaces. 
-Specifically, I explore ways to support humans through Context-Aware Systems and Natual Lanugae Processing.
+Specifically, I explore ways to support humans through Context-Aware Systems and Natural Language Processing.
 <!-- Specifically, I like exploring how to effectively combine Human and Artificial Intelligence to augment natural human abilities. -->
 <!-- I am currently studying how to effectively combine Human and Artificial Intelligence to argument teachers in K-12 classrooms.  -->
 I love working at <code>/src</code> and constantly try to bridge the gap between humans and technology by building great products.
