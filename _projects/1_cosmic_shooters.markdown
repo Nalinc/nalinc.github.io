@@ -2,7 +2,7 @@
 layout: page
 title: Cosmic Shooters
 description:
-img: /assets/img/cosmic_shooters/cosmic_shooters.png
+img:
 ---
 
 

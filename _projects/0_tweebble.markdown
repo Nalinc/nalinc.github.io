@@ -2,7 +2,7 @@
 layout: page
 title: Tweebbles
 description:
-img: /assets/img/tweebbles/tweebbles_cloud.png
+img:
 ---
 
 A data centric view of user tweets.

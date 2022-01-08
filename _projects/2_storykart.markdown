@@ -2,7 +2,7 @@
 layout: page
 title: Storykart
 description:
-img: /assets/img/storykart/1.png
+img:
 ---
 
 Educational platform to create and share interactive stories. Includes insanely simple drag-drop interface with script-editor to create stories.

@@ -1,7 +1,22 @@
-I"Z
+I"2
+<div class="project">
+    <div class="thumbnail">
+        <a href="http://typealike.github.io" target="_blank">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Typealike</h1>
+            <br />
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
 <div class="project ">
     <div class="thumbnail">
-        <a href="http://localhost:4000/projects/4_teachable_agents/">
+        <a href="/projects/4_teachable_agents/">
         
         <div class="thumbnail blankbox"></div>
             
@@ -16,7 +31,7 @@
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="http://localhost:4000/projects/3_surprise/">
+        <a href="/projects/3_surprise/">
         
         <div class="thumbnail blankbox"></div>
             
@@ -31,12 +46,9 @@
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="http://localhost:4000/projects/2_storykart/">
+        <a href="/projects/2_storykart/">
         
-        <div class="project_image">
-            <img class="thumbnail" src="http://localhost:4000/assets/img/storykart/1.png" />  
-            <div class="thumbnail-text">Storykart</div>
-        </div>
+        <div class="thumbnail blankbox"></div>
             
         <span>
             <h1>Storykart</h1>
@@ -49,12 +61,9 @@
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="http://localhost:4000/projects/1_cosmic_shooters/">
+        <a href="/projects/1_cosmic_shooters/">
         
-        <div class="project_image">
-            <img class="thumbnail" src="http://localhost:4000/assets/img/cosmic_shooters/cosmic_shooters.png" />  
-            <div class="thumbnail-text">Cosmic Shooters</div>
-        </div>
+        <div class="thumbnail blankbox"></div>
             
         <span>
             <h1>Cosmic Shooters</h1>
@@ -67,12 +76,9 @@
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="http://localhost:4000/projects/0_tweebble/">
+        <a href="/projects/0_tweebble/">
         
-        <div class="project_image">
-            <img class="thumbnail" src="http://localhost:4000/assets/img/tweebbles/tweebbles_cloud.png" />  
-            <div class="thumbnail-text">Tweebbles</div>
-        </div>
+        <div class="thumbnail blankbox"></div>
             
         <span>
             <h1>Tweebbles</h1>

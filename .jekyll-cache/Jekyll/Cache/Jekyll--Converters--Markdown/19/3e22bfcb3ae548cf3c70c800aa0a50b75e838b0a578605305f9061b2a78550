@@ -1,20 +1,22 @@
-I"F<div class="cube">
+I"ä<div class="cube">
 	<div class="flippety">
-		<img src="assets/img/prof_pic.jpg" />
+		<img src="assets/img/prof_pic.png" />
 	</div>
 	<div class="flop">
-		<span>This is me in front of <b>LHC-b</b> at CERN: The birthplace of <b>www</b> aka <b>world-wide-web</b>. I was a <b>Summer Student Intern</b> at GS-Scientific Information Services group, <a href="http://ep-news.web.cern.ch/sites/ep-news.web.cern.ch/files/cern_map2014/index.html" target="_blank">one of only 3 selected from India in 2014</a>.</span>
+		<!-- <span>This is me in front of <b>LHC-b</b> at CERN: The birthplace of <b>www</b> aka <b>world-wide-web</b>. I was a <b>Summer Student Intern</b> at GS-Scientific Information Services group, <a href="http://ep-news.web.cern.ch/sites/ep-news.web.cern.ch/files/cern_map2014/index.html" target="_blank">one of only 3 selected from India in 2014</a>.</span> -->
 	</div>
 </div>
-<!-- <img src="assets/img/prof_pic.jpg"/> -->
-<p>Hi! I am a Research Engineer in the <a target="_blank" href="https://www.autodeskresearch.com/groups/user-interface">User Interface Research Group</a> at <a target="_blank" href="https://autodeskresearch.com/">Autodesk Toronto</a>. 
+
+<p>Hi! I am a Software Development Engineer in the Alexa Edge ML group at <a target="_blank" href="https://www.amazon.jobs/en/locations/toronto-canada">Amazon Toronto</a>.
+Before this, I was a Research Engineer at <a target="_blank" href="https://autodeskresearch.com/">Autodesk Toronto</a>. 
 I graduated from <!-- <a href="https://cs.uwaterloo.ca/" >David R. Cheriton School of Computing Science</a> at the -->
 the <a target="_blank" href="https://uwaterloo.ca/">University of Waterloo</a> under the supervision of <a target="_blank" href="http://edithlaw.ca/"> Dr Edith Law</a>.
 My research interests lies on the intersection of Interactive Machine Learning and Intelligent User Interfaces. 
 Specifically, I explore ways to support humans through Context-Aware Systems and Natural Language Processing.
 <!-- Specifically, I like exploring how to effectively combine Human and Artificial Intelligence to augment natural human abilities. -->
+<!-- His research interests are at the intersection of Intelligent User Interfaces and Interactive Machine Learning. He is passionate about exploring the co-evolution of humans and technology through novel scientific and engineering solutions. He holds a masterâ€™s degree in Mathematics and Computer Science from the University of Waterloo with a specialization in Human-AI-Interaction. -->
 <!-- I am currently studying how to effectively combine Human and Artificial Intelligence to argument teachers in K-12 classrooms.  -->
-I love working at <code>/src</code> and constantly try to bridge the gap between humans and technology by building great products.
+I love working at <code>/src/</code> and constantly try to bridge the gap between humans and technology by building great products.
 When not coding, I enjoy swimming, cycling, running, and cooking.</p>
 
 <p>I completed <a href="https://summerofcode.withgoogle.com/archive/2018/projects/5665683559940096/">Google Summer Of Code 2018 (GSoC)</a> with AIMACode under the supervison of <a href="http://norvig.com/">Peter Norvig</a> (<i>Director Of Research @ Google</i>). Since then, I have been an organization-admin for AIMACode and involved in mentoring new GSoC students. I have also interned at other awesome places like <a href="http://rsvp.ai/">RSVP.ai</a>, <a href="https://home.cern/">CERN</a> and <a href="http://www.csir4pi.in/">CSIR-4PI</a>. Before coming to Waterloo, I was a part of <a href="http://crowdresearch.stanford.edu">Stanford Crowd Research Collective</a> led by <a href="https://hci.stanford.edu/msb/">Michael Bernstein</a> and worked as a Fullstack Software Engineer in <a href="https://www.comprotechnologies.com/#home">Compro</a>: an ed-tech company based in New Delhi. I completed my Bachelors in Computer Science and Engineering from <a href="http://ipu.ac.in/">Indraprastha University</a>, New Delhi.</p>
