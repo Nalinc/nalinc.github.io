@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Nalin Chhibber | Google Summer Of Code 2018</title>
+  <meta name="description" content="Nalin's World! His little space on the web.
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/blog/gsoc-final-submission/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Nalin</strong> Chhibber
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">About</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="/lab/">Lab</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="/publications/">Publications</a>
+
+        <!-- Resume -->
+        <!-- <a class="page-link" href="/resume/">Resume</a> -->
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">Blog</a>
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Google Summer Of Code 2018</h1>
+    <p class="post-meta">March 15, 2018</p>
+  </header>
+
+  <article class="post-content">
+    <p>Google Summer of Code is finally over and I had an amazing 4 months. This blog is meant to document my work in short. Checkout <a href="http://aimacode.github.io/aima-exercises">aima-exercises</a> and <a href="https://aima-exercises.firebaseapp.com/">aima-exercises-api</a> to see what I made during the summer of 2018.</p>
+
+<h1 id="project">Project</h1>
+<p>I worked with the organization AIMACode as a part of Google Summer of Code 2018. I was directly supervised by <a href="https://en.wikipedia.org/wiki/Peter_Norvig">Peter Norvig</a> for the project named “AIMA Exercises”. The goal was to design and implement a new platform to host interactive exercises for the fourth edition of the book “Artificial Intelligence: A Modern Approach”. This platform is not only meant to host the questions,  but also serve as a community to engage students and instructors.</p>
+
+<h1 id="proposal">Proposal</h1>
+<p>My proposal can be found <a href="http://">here</a></p>
+
+<h1 id="work-done">Work done</h1>
+<p>Most of the commits I made during GSoC were in the repository <a href="https://github.com/aimacode/aima-exercises">aimacode/aima-exercises</a>. I also made few commits in a helper repository <a href="https://github.com/nalinc/aima-exercises-api">nalinc/aima-exercises-api</a> which hosted the microservice for API endpoints. In total, I submitted around 80 commits and changed a over 4000 files in both aima-exercises and aima-exercises-api</p>
+
+<p>Following are the most significant commits I made during this period.</p>
+
+<h3 id="milestone-1">Milestone 1</h3>
+<ul>
+  <li>Conversion of Latex to markdown.
+    <ul>
+      <li><a href="https://github.com/aimacode/aima-exercises/commit/07d7300671b050215bd9d798f36146cf21e961a4">@1e961a4</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/674119d13807a418da26dec219cc5847707e7f65">@07e7f65</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/37c789c0ce23602786c54bf06784eac6173d41cf">@73d41cf</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/13c391ce631acda7dc400c225ff7df48f3d17b22">@3d17b22</a></li>
+    </ul>
+  </li>
+  <li>Implemented Table-of-Contents</li>
+  <li>Made each question individually addressible by implementing “Exercise mode”.
+    <ul>
+      <li><a href="https://github.com/aimacode/aima-exercises/commit/d191743c8c64383b7b69d764471214089691a4c5">@691a4c5</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/839c752db8587d8242ff88fb249fc9471b18eb11">@b18eb11</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/05b317b85542fe2c56eaf000d0de5ef912435447">@2435447</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/bbb6ccd602746f2699e8ef678cd8ea2096970f3d">@6970f3d</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/667c7fb86001cc59a22b140605998ef46936a7bf">@936a7bf</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/a6db0a8f02204871936f9c72ab158ee641be23be">@1be23be</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="milestone-2">Milestone 2</h3>
+<ul>
+  <li>Created a microservice based on firebase cloud functions
+    <ul>
+      <li><a href="https://github.com/nalinc/aima-exercises-api">nalinc/aima-exercises-api</a></li>
+    </ul>
+  </li>
+  <li>Implementation of a ranking system for exercises.
+    <ul>
+      <li><a href="https://github.com/aimacode/aima-exercises/commit/287578c7f13a4c67455461ec22f588bc755d12e0">@55d12e0</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/e2d2f72276495032dad318a120aff8dc957afafd">@57afafd</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/6a5e27c65f44cd28b1207b1922032e536fabd1ac">@fabd1ac</a></li>
+    </ul>
+  </li>
+  <li>Allowing users to edit exercises and their solutions
+    <ul>
+      <li><a href="https://github.com/aimacode/aima-exercises/commit/05d25473d666b6d7df0aed0765c2d79abc8e3a78">@c8e3a78</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/299f54004adb083aa316f51bfc21b12b0eef2457">@eef2457</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/900682efa151a3f47ccd409739c245f8c541fddb">@541fddb</a></li>
+    </ul>
+  </li>
+  <li>Integrating discussion support.
+    <ul>
+      <li><a href="https://github.com/aimacode/aima-exercises/commit/ab366b891251c9c8c5728d2e2b7eb0ed742af627">@42af627</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="milestone-3">Milestone 3</h3>
+<ul>
+  <li>Full text search support
+    <ul>
+      <li><a href="https://github.com/aimacode/aima-exercises/commit/e8bba7050b66ee14a37a7710015b8c28274269c1">@74269c1</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/cc54ca5472f8b536699dc3354ce45e3c51ffd091">@1ffd091</a>
+  , <a href="https://github.com/aimacode/aima-exercises/commit/cc106533231c36040a0f97679dad49c1ca79c5ae">@a79c5ae</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="future-work">Future Work</h1>
+<p>Future contributors can work on a number of features to improve AIMA-Exercises. Some of these include:</p>
+<ul>
+  <li>Implementing a run-time system to add/edit exercises in the platform (instead of doing this from Github)</li>
+  <li>Providing better support for cross-references.</li>
+</ul>
+
+<h1 id="acknowledgements">Acknowledgements</h1>
+<p>I would like to express my sincere gratitude to my mentor Peter Norvig for the continuous support throughout the project timeline.</p>
+
+<p>I am very grateful to Google which provided me with this golden opportunity.</p>
+
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2022 Nalin Chhibber.
+    Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
